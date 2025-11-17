@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bot Web Netflix - Automatización de Códigos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__logo">Netflix Bot Web</div>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#planes">Planes</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <header id="inicio" class="hero">
+    <div class="hero__content">
+      <h1>¿Tu dispositivo no forma parte del hogar de Netflix?</h1>
+      <p class="lead">
+        No pierdas ventas ni tiempo: nuestro <strong>Bot Web</strong> automatiza la entrega de códigos temporales a tus clientes 24/7 — compatible con PC, laptops y móviles — y entrega códigos en segundos.
+      </p>
+
+      <div class="hero__media">
+        <img src="imagenes/problema.jpg" alt="Problema Netflix" class="hero__img">
+      </div>
+
+      <p class="solucion">
+        Solución: entregamos los códigos automáticamente a tus clientes desde una web personalizada o estándar según el plan que desees. Ya no envies manualmente los códigos a tus clientes a ellos les molesta la espera, reduce tiempos de espera y aumenta la satisfacción del cliente.
+      </p>
+
+      <a class="cta" href="#planes">Ver planes disponibles</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="planes" class="planes">
+      <h2 class="section-title">Planes disponibles</h2>
+
+      <div class="planes__grid">
+
+        <!-- Plan 1 - Básico -->
+        <article class="plan plan--neon plan--small">
+          <div class="plan__badge">Básico</div>
+          <div class="neon neon--a"></div>
+          <video class="plan__media" src="videos/basico.mp4" controls muted></video>
+          <div class="plan__body">
+            <h3>Plan Básico — $5 / mes</h3>
+            <p>Diseño estándar (sin personalización de marca). Servicio 24/7 tipo Bot Web. Se entrega usuario y contraseña para acceder durante el mes.</p>
+            <a class="btn btn--whatsapp" target="_blank"
+               href="https://api.whatsapp.com/send?phone=+573206199480&text=He%20visitado%20la%20p%C3%A1gina%20web%20y%20me%20interesa%20obtener%20el%20Plan%20B%C3%A1sico%20del%20bot%20de%20Netflix">
+              Obtener Plan Básico
+            </a>
+          </div>
+        </article>
+
+        <!-- Plan 2 - Estándar -->
+        <article class="plan plan--neon plan--medium">
+          <div class="plan__badge">Estándar</div>
+          <div class="neon neon--b"></div>
+          <video class="plan__media" src="videos/estandar.mp4" controls muted></video>
+          <div class="plan__body">
+            <h3>Plan Estándar — Pago único $35</h3>
+            <p>Web personalizada con tu logo. Servicio semi-automático 24/7.</p>
+            <a class="btn btn--whatsapp" target="_blank"
+               href="https://api.whatsapp.com/send?phone=+573206199480&text=He%20visitado%20la%20p%C3%A1gina%20web%20y%20me%20interesa%20obtener%20el%20Plan%20Est%C3%A1ndar%20del%20bot%20de%20Netflix">
+              Obtener Plan Estándar
+            </a>
+          </div>
+        </article>
+
+        <!-- Plan 3 - Premium (más elegido) -->
+        <article class="plan plan--neon plan--highlight">
+          <div class="plan__badge plan__badge--top">Más elegido</div>
+          <div class="neon neon--c"></div>
+          <video class="plan__media" src="videos/premium.mp4" controls muted></video>
+          <div class="plan__body">
+            <h3>Plan Premium — $18 / mes</h3>
+            <p>Web personalizada con tu logo. Automática 24/7 — ideal para quien necesita total automatización general para sus clientes sin restricción por usuarios.</p>
+            <a class="btn btn--primary btn--pulse btn--whatsapp" target="_blank"
+               href="https://api.whatsapp.com/send?phone=+573206199480&text=He%20visitado%20la%20p%C3%A1gina%20web%20y%20me%20interesa%20obtener%20el%20Plan%20Premium%20del%20bot%20de%20Netflix">
+              Obtener Plan Premium
+            </a>
+          </div>
+        </article>
+
+        <!-- Plan 4 - Premium Ultra -->
+        <article class="plan plan--neon plan--large">
+          <div class="plan__badge">Premium Ultra</div>
+          <div class="neon neon--d"></div>
+          <video class="plan__media" src="videos/ultra.mp4" controls muted></video>
+          <div class="plan__body">
+            <h3>Plan Premium Ultra — $25 / mes</h3>
+            <p>Automática 24/7, personalizada con tu logo/marca, y gestión de usuarios para restringir acceso a clientes con servicio vencido.</p>
+            <a class="btn btn--whatsapp" target="_blank"
+               href="https://api.whatsapp.com/send?phone=+573206199480&text=He%20visitado%20la%20p%C3%A1gina%20web%20y%20me%20interesa%20obtener%20el%20Plan%20Premium%20Ultra%20del%20bot%20de%20Netflix">
+              Obtener Plan Premium Ultra
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="nota">Nota: Servicio tipo <strong>Bot Web</strong> (no es bot de Telegram ni WhatsApp). Entrega códigos en segundos desde la web.</p>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonials">
+      <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+      <div class="testimonials__grid">
+        <figure class="testimonial">
+          <img src="https://scontent-bog2-2.xx.fbcdn.net/v/t39.30808-1/462906283_8519229191494028_1679267147414494792_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=108&ccb=1-7&_nc_sid=e99d92&_nc_ohc=oHnBLfy3V3cQ7kNvwHhiI_b&_nc_oc=AdnWAUDPfRWN13VnD30NhqFgaPvj1-J9oXViA7sz9gB1Gsbh9ps3vqGKv2x08_tvgPo&_nc_zt=24&_nc_ht=scontent-bog2-2.xx&_nc_gid=-lWfMBg0vwNGhKiTvFXzZA&oh=00_AffguxdRBokwxvUVfqh0VQwjsi551NHFUsyTlpMgGlw8AA&oe=68FC4BC2" alt="Cliente 1">
+          <figcaption>
+            <strong>Juan P. — Vendedor</strong>
+            <p>"Desde que uso este Bot Web mis tiempos de respuesta se redujeron a segundos. Mis clientes agradecen y mis ventas subieron un 30%."</p>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial">
+          <img src="https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-6/547824726_122094220839036471_1346338728022586345_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ntrp_AcXI_QQ7kNvwEprWrl&_nc_oc=AdkQGNsiIWykHg6qwiyGgBxZxn-VMQ5jwLB_J22P6gTQ-LcSVvXI_U2hsnY8yjUxGA8&_nc_zt=23&_nc_ht=scontent-bog2-1.xx&_nc_gid=WG0yRRtgS61KWsSc5n3rrA&oh=00_AfdqGOqARLVmTJw8z--JIneoR2500YB-RFDxB790thfCew&oe=68FC4DA1" alt="Cliente 2">
+          <figcaption>
+            <strong>Laura G. — Proveedora Streaming</strong>
+            <p>"La personalización con nuestro logo quedó perfecta. Fácil de usar desde celular y PC. Soporte rápido y confiable."</p>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial">
+          <img src="https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-1/555774181_2177534469424348_8793320861496173596_n.jpg?stp=c7.0.453.453a_dst-jpg_s100x100_tt6&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=6vHyy5y2-qoQ7kNvwEpQzsR&_nc_oc=AdmoXGJ4PhCfGSCwwPIeKfyqiGpnkZtFsTZAajAE4DPFP6o7HPPasdXxniHQyxivWvY&_nc_zt=24&_nc_ht=scontent-bog2-1.xx&_nc_gid=J-_UQlFXNniYZnbdfCZqRw&oh=00_Afe-of5J2mwRruN-IbWz_iF8Fx5I5pRpyL36Wxpi_VGG3Q&oe=68FC35B6" alt="Cliente 3">
+          <figcaption>
+            <strong>Carlos M. — Emprendedor</strong>
+            <p>"La función de bloquear usuarios vencidos nos ayudó a mantener control y cobrar a tiempo. Muy recomendable."</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2>Contacto</h2>
+      <p>¿Listo para comenzar? Escríbenos por WhatsApp y dime qué plan quieres.</p>
+      <a class="btn btn--primary btn--pulse" target="_blank"
+         href="https://api.whatsapp.com/send?phone=+573206199480&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20planes%20de%20su%20Bot%20Web">
+        Contactar por WhatsApp
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Bot Web Netflix — Automatización de códigos. Servicio tipo bot web, no bot Telegram ni WhatsApp.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
